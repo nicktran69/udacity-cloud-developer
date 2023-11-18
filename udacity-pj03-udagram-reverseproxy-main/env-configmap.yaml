@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: env-config
+data:  
+  POSTGRES_USERNAME: postgres
+  POSTGRES_PASSWORD: postgres123456
+  POSTGRES_HOST: database-1.cfeenlthweyg.ap-southeast-1.rds.amazonaws.com
+  POSTGRES_DB: udagram_dev
+  AWS_BUCKET: udagram-pj3
+  AWS_REGION: ap-southeast-1
+  AWS_PROFILE: default
+  JWT_SECRET: proj3secret
+  URL: aec6f42f4bc404359a1e4730058073a6-1756658799.ap-southeast-1.elb.amazonaws.com
